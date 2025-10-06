@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jane Dev | Web Engineer</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+  <style>
+    .typing {
+      border-right: 2px solid #4ade80;
+      white-space: nowrap;
+      overflow: hidden;
+      animation: typing 4s steps(40, end), blink 0.75s step-end infinite;
+    }
+
+    @keyframes typing {
+      from {
+        width: 0;
+      }
+
+      to {
+        width: 100%;
+      }
+    }
+
+    @keyframes blink {
+      50% {
+        border-color: transparent;
+      }
+    }
+  </style>
+</head>
+
+<body class="bg-gray-900 text-green-400 font-mono flex flex-col items-center justify-center h-screen">
+  <h1 class="typing text-3xl md:text-5xl">
+    Hi, I’m Jane — Building the Web at the Edge 🌍
+  </h1>
+  <p class="mt-6 text-gray-400">
+    Deployed via
+    <a href="https://pages.cloudflare.com" class="underline">Cloudflare Pages</a>
+  </p>
+</body>
+
+</html>
